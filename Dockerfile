@@ -1,3 +1,4 @@
+#
 FROM gcr.io/cloud-datalab/datalab:latest
 RUN pip  --no-cache-dir install keras tflearn prettytensor tensorflow-transform h5py
 RUN pip3 --no-cache-dir install keras tflearn prettytensor h5py
